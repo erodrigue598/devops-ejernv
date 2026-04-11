@@ -11,6 +11,7 @@ spec:
     # TODO ejercicio 3:
     # Sustituir por la URL del repositorio Git que actua como fuente de verdad.
     - https://github.com/erodrigue598/devops-ejernv.git
+    - https://charts.bitnami.com/bitnami
   destinations:
     - namespace: database
       server: https://kubernetes.default.svc
